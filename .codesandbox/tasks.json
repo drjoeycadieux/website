@@ -1,0 +1,123 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "yarn install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "build": {
+      "name": "build",
+      "command": "yarn build",
+      "runAtStart": true
+    },
+    "build-preview": {
+      "name": "build-preview",
+      "command": "yarn build-preview",
+      "runAtStart": false
+    },
+    "build:gatsby": {
+      "name": "build:gatsby",
+      "command": "yarn build:gatsby",
+      "runAtStart": false
+    },
+    "build:test": {
+      "name": "build:test",
+      "command": "yarn build:test",
+      "runAtStart": false
+    },
+    "clean": {
+      "name": "clean",
+      "command": "yarn clean",
+      "runAtStart": false
+    },
+    "clean:gatsby": {
+      "name": "clean:gatsby",
+      "command": "yarn clean:gatsby",
+      "runAtStart": false
+    },
+    "develop": {
+      "name": "develop",
+      "command": "yarn develop",
+      "runAtStart": false
+    },
+    "deploy": {
+      "name": "deploy",
+      "command": "yarn deploy",
+      "runAtStart": false
+    },
+    "format": {
+      "name": "format",
+      "command": "yarn format",
+      "runAtStart": false
+    },
+    "storybook": {
+      "name": "storybook",
+      "command": "yarn storybook",
+      "runAtStart": false
+    },
+    "storybook:deploy": {
+      "name": "storybook:deploy",
+      "command": "yarn storybook:deploy",
+      "runAtStart": false
+    },
+    "storybook:build": {
+      "name": "storybook:build",
+      "command": "yarn storybook:build",
+      "runAtStart": false
+    },
+    "storybook:pages": {
+      "name": "storybook:pages",
+      "command": "yarn storybook:pages",
+      "runAtStart": false
+    },
+    "test": {
+      "name": "test",
+      "command": "yarn test",
+      "runAtStart": false
+    },
+    "test:update": {
+      "name": "test:update",
+      "command": "yarn test:update",
+      "runAtStart": false
+    },
+    "test:coverage": {
+      "name": "test:coverage",
+      "command": "yarn test:coverage",
+      "runAtStart": false
+    },
+    "test:lint": {
+      "name": "test:lint",
+      "command": "yarn test:lint",
+      "runAtStart": false
+    },
+    "test:dev": {
+      "name": "test:dev",
+      "command": "yarn test:dev",
+      "runAtStart": false
+    },
+    "setup": {
+      "name": "setup",
+      "command": "yarn setup",
+      "runAtStart": false
+    },
+    "setup:env-vars": {
+      "name": "setup:env-vars",
+      "command": "yarn setup:env-vars",
+      "runAtStart": false
+    },
+    "setup:api-repo": {
+      "name": "setup:api-repo",
+      "command": "yarn setup:api-repo",
+      "runAtStart": false
+    },
+    "setup:data-repo": {
+      "name": "setup:data-repo",
+      "command": "yarn setup:data-repo",
+      "runAtStart": false
+    }
+  }
+}
